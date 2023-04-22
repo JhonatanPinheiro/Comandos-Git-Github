@@ -50,7 +50,7 @@ Anotações de comandos usados na rotina de um desenvolvedor !
 
 
 
-Referência: <a href="https://www.codigofonte.com.br/artigos/top-25-comandos-do-git">
+Referência: <a href="https://www.codigofonte.com.br/artigos/top-25-comandos-do-git">Codigofonte.com<a/>
 
  
  
