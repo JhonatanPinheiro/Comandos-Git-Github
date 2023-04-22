@@ -48,6 +48,10 @@ Anotações de comandos usados na rotina de um desenvolvedor !
 1 - Comparando o repositório ativo com o repositório local: <strong>  git diff HEAD <nome_do_arquivo> </strong>  <br>
 2 - comparando duas ramificações: <strong> git diff <branch de origem> <branch de destino> </strong>  <br> <br> <br>
 
+
+
+Referência: <a href="https://www.codigofonte.com.br/artigos/top-25-comandos-do-git">
+
  
  
  
