@@ -42,11 +42,11 @@ Anotações de comandos usados na rotina de um desenvolvedor !
 - <strong> git blame <nome_do_arquivo> </strong> (O comando “dedo-duro”, blame ajuda a determinar qual usuário realizou qual mudança em um determinado arquivo) <br>
 - <strong> git tag -a v1.0.0 </strong> (Tags são uma boa opção para marcar uma branch e evitar alteração, principalmente em releases públicos.) 
 - <strong> git citool </strong> (Esse comando Git oferece uma alternativa gráfica ao commi) <br>  <br>
-- <strong> git whatchanged </strong> (Esse comando oferece informações de log, mas em formato raw) <br> <br> <br> <br>
+- <strong> git whatchanged </strong> (Esse comando oferece informações de log, mas em formato raw) <br> <br> <br>
 
  Para comparar dois arquivos gits ou dois branches antes de passarem por um commit ou um push, é importante executar esse comando Git. <br>
 1 - Comparando o repositório ativo com o repositório local: <strong>  git diff HEAD <nome_do_arquivo> </strong>  <br>
-2 - comparando duas ramificações: <strong> git diff <branch de origem> <branch de destino> </strong>  <br>
+2 - comparando duas ramificações: <strong> git diff <branch de origem> <branch de destino> </strong>  <br> <br> <br>
 
  
  
