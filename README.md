@@ -33,7 +33,7 @@ Anotações de comandos usados na rotina de um desenvolvedor !
 - <strong> git citool </strong> (Esse comando Git oferece uma alternativa gráfica ao commi) <br>  <br>
 - <strong> git whatchanged </strong> (Esse comando oferece informações de log, mas em formato raw) <br> <br> <br> <br>
 
- Para comparar dois arquivos gits ou dois branches antes de passarem por um commit ou um push, é importante executar esse comando Git.
+ Para comparar dois arquivos gits ou dois branches antes de passarem por um commit ou um push, é importante executar esse comando Git. <br>
 1 - Comparando o repositório ativo com o repositório local: <strong>  git diff HEAD <nome_do_arquivo> </strong>  <br>
 2 - comparando duas ramificações: <strong> git diff <branch de origem> <branch de destino> </strong>  <br>
 
