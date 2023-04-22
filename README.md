@@ -35,7 +35,7 @@ Anotações de comandos usados na rotina de um desenvolvedor !
 - <strong> git rebase <base> </strong> (Git rebase a princípio parece fazer o mesmo que um comando git merge: ele integra dois branches em um branch único. Porém, esse comando refaz o histórico de commits, tornando-o linear. É o mais indicado para consolidar múltiplos branches) <br>  <br>
 - <strong> git pull –rebase </strong> (Essa é uma variação do comando pull mostrado anteriormente. A partir dessa instrução, o Git irá fazer um rebase (não um merge) depois de se utilizar um comando pull.) <br>  <br> <br> 
 
-- <strong> git cherry-pick <commit-hash> </strong> (Essa é uma variação do comando pull mostrado anteriormente. A partir dessa instrução, o Git irá fazer um rebase (não um merge) depois de se utilizar um comando pull.) <br>  <br>
+- <strong> git cherry-pick <commit-hash> </strong> (Essa é uma variação do comando pull mostrado anteriormente. A partir dessa instrução, o Git irá fazer um rebase (não um merge) depois de se utilizar um comando pull.) <br>
 - <strong> git cherry-pick <commit-hash> </strong> (Esse é um comando poderoso que permite selecionar qualquer commit específico de um brach e aplicá-lo a outro branch, sem precisar de uma mescla completa. A operação fica adicionada no histórico.) <br> <br> <br> 
 
 - <strong> git archive –format zip HEAD > archive-HEAD.zip </strong> (Esse comando Git combina múltiplos arquivos em um único arquivo, como se fosse um arquivo zipado. Esse pacote pode ser aberto depois e os arquivos contidos podem ser extraídos individualmente) <br>  <br>
