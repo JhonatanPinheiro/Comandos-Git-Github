@@ -2,22 +2,22 @@
 Anotações de comandos usados na rotina de um desenvolvedor ! 
 
 - <strong>git init <O nome do seu repositório></strong> (Se você já possui um repositório anterior ou deseja criar um repositório com um nome em específico) <br> <br>
-- <strong>git clone <URL do seu projeto> <O nome do seu repositório></strong> (Esse comando Git cria uma cópia exata de um repositório já existente) <br> <br>   
-- <strong> git add seu_arquivo </strong> (Esse comando irá adicionar o arquivo em específico ao repositório) <br> <br> <br>
-- <strong> git add * </strong> (Esse comando irá adicionar todos os arquivos novos e/ou modificados ao repositório) <br>  <br> <br> 
-- <strong> git commit -a -m “seu comentário” </strong> (O git commit executa o commit dos arquivos que foram adicionados e cria uma nova revisão com um log. Por outro lado, se você não adicionar nenhum arquivo, o git não fará o commit de nada.) <br> <br>
-- <strong> git branch </strong> (Lista todas as ramificações) <br> <br>  <br>
+- <strong>git clone <URL do seu projeto> <O nome do seu repositório></strong> (Esse comando Git cria uma cópia exata de um repositório já existente) <br> <br> <br> 
+- <strong> git add seu_arquivo </strong> (Esse comando irá adicionar o arquivo em específico ao repositório) <br>
+- <strong> git add * </strong> (Esse comando irá adicionar todos os arquivos novos e/ou modificados ao repositório) <br> <br> <br> 
+- <strong> git commit -a -m “seu comentário” </strong> (O git commit executa o commit dos arquivos que foram adicionados e cria uma nova revisão com um log. Por outro lado, se você não adicionar nenhum arquivo, o git não fará o commit de nada.) <br> <br> <br> 
+- <strong> git branch </strong> (Lista todas as ramificações) <br> 
 - <strong> git branch <nome_do_branch> </strong> (Cria um branch com o nome especificado) <br> <br>
 - <strong> git branch -d <nome_do_branch> </strong> (Deleta o branch com o nome especificado) <br> <br> <br> 
-- <strong> git checkout <nome_do_branch> </strong> (Ainda sobre branches, esse comando Git pode ser utilizado para trocar de uma ramificação para outra.) <br> <br>
-- <strong> git checkout -b <nome_do_branch_novo> </strong> (Também é possível combinar operações, criando e fazendo o checkout de um novo branch com um único comando) <br> <br>  <br>
-- <strong> git remote add <nomecurto> <url></strong> (O comando Git remote estabelece uma conexão entre seu repositório local e um repositório remoto.)<br> <br>  <br>
-- <strong> git push -u <nome_curto> <nome_do_branch> </strong> (Esse comando serve para subir suas modificações para um repositório remoto conectado anteriormente com git remote. Esse comando serve para subir suas modificações para um repositório remoto conectado anteriormente com git remote) <br> <br> 
-- <strong> git push –set-upstream <nome_curto> <nome_do_branch> </strong> (É importante especificar a origem e o upstream antes de usar o git push) <br> <br>  <br>
+- <strong> git checkout <nome_do_branch> </strong> (Ainda sobre branches, esse comando Git pode ser utilizado para trocar de uma ramificação para outra.) <br> 
+- <strong> git checkout -b <nome_do_branch_novo> </strong> (Também é possível combinar operações, criando e fazendo o checkout de um novo branch com um único comando) <br> <br> <br>
+- <strong> git remote add <nomecurto> <url></strong> (O comando Git remote estabelece uma conexão entre seu repositório local e um repositório remoto.)<br> <br> <br>
+- <strong> git push -u <nome_curto> <nome_do_branch> </strong> (Esse comando serve para subir suas modificações para um repositório remoto conectado anteriormente com git remote. Esse comando serve para subir suas modificações para um repositório remoto conectado anteriormente com git remote) <br>
+- <strong> git push –set-upstream <nome_curto> <nome_do_branch> </strong> (É importante especificar a origem e o upstream antes de usar o git push) <br> <br> <br>
 - <strong> git fetch </strong> (Quando você precisa baixar as mudanças criadas por outros membros do seu projeto colaborativo, você precisa do comando Git fetch. A partir desse comando, você irá receber todas as informações de commits, para avaliar, antes de aplicar essas alterações na sua versão local do repositório.) <br>
-- <strong>  git pull <URL> </strong> (O comando Git pull baixa o conteúdo (não os metadados) do que foi alterado no repositório remoto para o seu repositório local e imediatamente atualiza seu contreúdo para a última versão.) <br> <br>
-- <strong> git stash </strong> (Esse comando Git armazena temporariamente seus arquivos modificados em uma área chamada stash (“esconderijo”), sem interagir com os outros arquivos até ser necessário.) <br> <br>  <br>
-- <strong> git stash list </strong> (Para listar todos os seus “esconderijos”) <br>  <br>
+- <strong>  git pull <URL> </strong> (O comando Git pull baixa o conteúdo (não os metadados) do que foi alterado no repositório remoto para o seu repositório local e imediatamente atualiza seu contreúdo para a última versão.) <br> <br> <br> 
+- <strong> git stash </strong> (Esse comando Git armazena temporariamente seus arquivos modificados em uma área chamada stash (“esconderijo”), sem interagir com os outros arquivos até ser necessário.) <br> 
+- <strong> git stash list </strong> (Para listar todos os seus “esconderijos”) <br> 
 - <strong> git stash apply </strong> (Quando for o momento de aplicar o conteúdo do stash a um branch, usamos o parâmetro “apply) <br> <br> <br>
 - <strong> git show <hash_do_commit> </strong> (Detalhes específicos sobre um commit que o log não mostra) <br>  <br>
 - <strong> git rm <nome_do_arquivo> </strong> (Para remover arquivos da sua pasta, você pode utilizar o comando Git rm.) <br>  <br>
